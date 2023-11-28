@@ -18,3 +18,4 @@ function WeatherCard() {
 };
 
 // Export the WeatherCard
+module.exports = WeatherCard;
