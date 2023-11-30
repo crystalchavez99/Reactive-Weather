@@ -14,7 +14,7 @@ function App() {
             <h3 className = "subtitle">Up to the minute weather news</h3>
 
             <div className = "app">
-                {/* <Form /> */}
+                <Form location={location} setLocation={setLocation}/>
                 <Location data={cities} location={location} />
                 {cities.map(city => (
                     <WeatherCard data={city}/>
